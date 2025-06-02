@@ -11,8 +11,8 @@ from nacl.signing import SigningKey  # Cryptographic library for creating secure
 from dotenv import load_dotenv
 load_dotenv()
 # Your Robinhood API credentials (hardcoded for simplicity)
-# API_KEY = "rh-api-4addd27c-0bf8-4259-90e7-a241159aa6d1"  # Your unique API key from Robinhood
-# BASE64_PRIVATE_KEY = "aZaAWqRZT2wwdEXXuNBx4+tHyq4Werp9D4WlZg2vVzuVWOZEc6Cz4tyeMAvrzlz1hhnTP16+6iHCkxQ2LyGDaQ=="  # Your private key in Base64 format
+
+
 API_KEY = os.environ.get("API_KEY")
 BASE64_PRIVATE_KEY = os.environ.get("BASE64_PRIVATE_KEY")
 
