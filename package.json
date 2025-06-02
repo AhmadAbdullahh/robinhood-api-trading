@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "robinhood-api-trading",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.3",
+    "base64-js": "^1.5.1",
+    "dotenv": "^16.5.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
